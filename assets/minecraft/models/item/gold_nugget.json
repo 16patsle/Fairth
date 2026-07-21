@@ -1,12 +1,6 @@
 {
- "parent": "item/generated",
- "textures": {
- "layer0": "item/gold_nugget"
- },
- 
- "overrides": [
- {"predicate": {"custom_model_data":10001}, "model": "custom/gold_coin"},
- {"predicate": {"custom_model_data":10002}, "model": "custom/silver_coin"}
-
-  ]
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/gold_nugget"
+  }
 }

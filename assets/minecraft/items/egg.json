@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": { "type": "minecraft:model", "model": "minecraft:item/egg" },
+    "entries": [
+      { "threshold": 101, "model": { "type": "minecraft:model", "model": "minecraft:custom/dragon_egg_blue" } },
+      { "threshold": 102, "model": { "type": "minecraft:model", "model": "minecraft:custom/dragon_egg_red" } },
+      { "threshold": 103, "model": { "type": "minecraft:model", "model": "minecraft:custom/dragon_egg_green" } }
+    ]
+  }
+}
