@@ -15,10 +15,12 @@ Updated the pack from format 22 (Minecraft 1.20.3/4) to format 88 (Java Edition 
 - **Redundancy audit vs vanilla 26.2 + Faithful 32x (all 358 textures)** — stats icon sprites and colormaps removed (pixel-exact vanilla copies); everything else confirmed custom (incl. the high-res `accented.png` font carrying the logo glyphs — do not remove). Three paintings have odd off-by-one sizes (63×63 etc.) but render fine; an edge-padding attempt was visible in-game and reverted.
 - **`menu.shareToLan` override removed** — in-game testing confirmed the game's deprecated-key strip discards it on all supported versions, so the "arcaena.com" LAN-button branding no longer works via lang. If that branding matters, it needs a different mechanism (project-leader call).
 
+- **Menu backgrounds recreated** — the four post-1.20.5 tiles generated from the pack's `options_background.png` with the old engine's darkening baked in; menus keep the classic pack look instead of vanilla's translucent black.
+- **Villager trading GUI** — renamed to the current filename, trade sprites split, and the 1.21.9 one-pixel result-slot shift applied; verified in-game.
+
 ## Remaining
 
-- Menu background art (`options_background.png` was removed in 1.20.5; needs recreating as the `menu_background`/`inworld_*` family).
-- Villager GUI: shift result slot up 1px per 1.21.9; verify in-game.
+- Decision: menus — keep the recreated classic dirt-style background, or revert to vanilla's modern translucent style (delete the four new tiles).
 - Decision: delete or recreate dead files (`container/bundle.png`, `particle/particles.png`, `particle/footprint.png`).
 - `mipmap_strategy` tuning for cutout textures; pad `arcaena:block/framed_glass_pane_top` (4×32 drops the whole blocks atlas to mip 2).
 - Decision: OptiFine CTM folders — port to Continuity (reads OptiFine format in place), keep, or drop.

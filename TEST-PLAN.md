@@ -16,9 +16,10 @@ Enable above Faithful 32x. `F3+T` reloads resources after swapping.
 
 Second pass 2026-07-21 confirmed: current vanilla strings ✓, creative tabs ✓, sliced GUI shows pack art ✓, LAN button = vanilla (override stripped, key removed), painting padding reverted.
 
-- [ ] Villager trading screen after the result-slot shift (task 3)
+- [x] Villager trading screen after the result-slot shift — looks right (2026-07-21)
+- [ ] Menus (task 2): implemented as classic dirt look; keep-or-revert pending project-leader decision
 - [ ] Leaves at max render distance (task 6, mipmap tuning)
-- [ ] Still-vanilla by design until their tasks land: menu background (2), bundle UI (4)
+- [ ] Still-vanilla by design until its task lands: bundle UI (task 4)
 
 ## Reference: custom item give commands (26.2 syntax)
 

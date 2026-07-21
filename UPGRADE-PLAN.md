@@ -6,8 +6,8 @@ Task tracker for the `update-26.2` branch. Status: `todo` / `in progress` / `don
 |---|------|--------|
 | 0 | Foundation (mcmeta, blockstate, item defs, atlas, slot sprites, lang, arcaena lang fix) | done |
 | 1 | Slice 1.20.2-era GUI sheets into sprites | done — QA pending |
-| 2 | Recreate menu background | todo |
-| 3 | Villager trading GUI | mostly done |
+| 2 | Recreate menu background | implemented — keep/revert is a project-leader call |
+| 3 | Villager trading GUI | done — verified in-game |
 | 4 | Remove dead files (bundle, particles, footprint) | decision needed |
 | 5 | ~~dry_foliage colormap~~ | dropped — moot after colormap removal |
 | 6 | `mipmap_strategy` tuning | todo |
@@ -18,9 +18,9 @@ Task tracker for the `update-26.2` branch. Status: `todo` / `in progress` / `don
 
 ## Open task notes
 
-**2. Menu background** — `options_background.png` removed in 1.20.5. Recreate the pack's background as `gui/menu_background.png`, `menu_list_background.png`, `inworld_menu_background.png`, `inworld_menu_list_background.png` + header/footer separators, then delete the dead file. Art work.
+**2. Menu background** — implemented: the four post-1.20.5 tiles generated from the pack's `options_background.png` with the old engine's 25%/12.5% darkening baked in, restoring the classic dirt-style menus. **Project-leader decision:** keep this classic look, or revert to vanilla's modern translucent-black-over-blur style (= delete the four tiles).
 
-**3. Villager GUI** — slicer renamed `villager2.png` → `villager.png` and split the trade sprites. Remaining: 1.21.9 moved the result slot up one pixel — shift that region and check slot alignment in-game.
+**3. Villager GUI** — done and verified in-game 2026-07-21.
 
 **4. Dead files** — `container/bundle.png` (bundle UI sprite-based since 1.20.2), `particle/particles.png` + `footprint.png` (unused since 1.14). Delete outright, or recreate modern equivalents? Project-leader call.
 
