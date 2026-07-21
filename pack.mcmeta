@@ -1,10 +1,8 @@
 {
   "pack": {
-    "pack_format": 22,
+    "pack_format": 75,
     "description": "The Default Arcaena Pack. Use above Faithful 32x.",
-	"supported_formats": {
-      "min_inclusive": 15,
-      "max_inclusive": 31
-    }
+    "min_format": 75,
+    "max_format": 88
   }
 }
