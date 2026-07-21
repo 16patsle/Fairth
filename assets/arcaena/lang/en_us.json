@@ -140,7 +140,7 @@
   "item.arcaena.attribute.exclusive": "Exclusive Item",
   "item.arcaena.attribute.owner": "Owner: %s",
 
-  "____comment": "SUPPORT FOR OPTIFINE FEATURES (SMART LEAVES, DYNAMIC LIGHTS, CTM):"
+  "____comment": "SUPPORT FOR OPTIFINE FEATURES (SMART LEAVES, DYNAMIC LIGHTS, CTM):",
   "of.options.TREES": "Trees",
   "of.options.TREES.tooltip.1": "Trees",
   "of.options.TREES.tooltip.2": "  Default - as set by setting Graphics",
@@ -167,20 +167,20 @@
   "of.options.DYNAMIC_LIGHTS.tooltip.6": "to illuminate everything around them when held in hand,",
   "of.options.DYNAMIC_LIGHTS.tooltip.7": "equipped by other player or dropped on the ground.",
 
-  "arcaena.healing.failure.early_ointment": "The ointment doesn't stick to the wound..."
-  "arcaena.healing.failure.early_healing_healer": "%s can’t be healed for another %s minutes and %s seconds..."
-  "arcaena.healing.failure.early_healing_target": "%s attempted to heal you, but you can’t be healed for another %s minutes and %s seconds…"
-  "arcaena.healing.failure.scissors_late_healer": "You did not cut the bandage in time. %s was not healed."
-  "arcaena.healing.failure.scissors_late_target": "%s did not cut the bandage in time. You were not healed."
-  "arcaena.healing.begin.healer": "You began healing %s."
-  "arcaena.healing.begin.target": "%s began healing you."
-  "arcaena.healing.end.healer": "You healed %s."
-  "arcaena.healing.end.target": "%s healed you."
+  "arcaena.healing.failure.early_ointment": "The ointment doesn't stick to the wound...",
+  "arcaena.healing.failure.early_healing_healer": "%s can’t be healed for another %s minutes and %s seconds...",
+  "arcaena.healing.failure.early_healing_target": "%s attempted to heal you, but you can’t be healed for another %s minutes and %s seconds…",
+  "arcaena.healing.failure.scissors_late_healer": "You did not cut the bandage in time. %s was not healed.",
+  "arcaena.healing.failure.scissors_late_target": "%s did not cut the bandage in time. You were not healed.",
+  "arcaena.healing.begin.healer": "You began healing %s.",
+  "arcaena.healing.begin.target": "%s began healing you.",
+  "arcaena.healing.end.healer": "You healed %s.",
+  "arcaena.healing.end.target": "%s healed you.",
 
-  "arcaena.regionEdit.pos1": "Position 1 set"
-  "arcaena.regionEdit.pos2": "Position 2 set"
-  "arcaena.regionEdit.failure.outside": "Cannot create regions outside of this world"
-  "arcaena.regionEdit.success": "Region Created"
+  "arcaena.regionEdit.pos1": "Position 1 set",
+  "arcaena.regionEdit.pos2": "Position 2 set",
+  "arcaena.regionEdit.failure.outside": "Cannot create regions outside of this world",
+  "arcaena.regionEdit.success": "Region Created",
 
   "arcaena.container.spellBook": "Spell Book",
   "arcaena.container.spellBook_title": "Cast a spell..."
